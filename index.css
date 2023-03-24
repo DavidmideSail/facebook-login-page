@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+main {
+    width: 30rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 2px 8px 8px gray;
+}
+
+section h1 {
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #2c67e9;
+    animation: face1 3s linear reverse;
+}
+
+@keyframes face1 {
+
+    form{color: #2c67e9;
+        font-size: 3rem;
+    }
+
+    to{
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+main h3 {
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    /* padding: 0rem 2rem; */
+}
+
+form {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    /* align-items: center; */
+}
+
+.input-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.4rem;
+    position: relative;
+    border: 2px solid rgb(216, 213, 213);
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    /* background-color: yellow; */
+    padding: 1rem;
+}
+.input-div:hover{
+    border: 2px solid #2c67e9;
+}
+
+.fa-regular {
+    /* background-color: turquoise; */
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    cursor: pointer;
+    animation: pass 3s linear reverse;
+}
+
+@keyframes pass {
+    form {
+        right: 1.5rem;
+        bottom: 1.5rem;
+        color: black;
+    }
+
+    to {
+        right: 0rem;
+        bottom: 0rem;
+        color: white;
+    }
+}
+
+form button {
+
+    padding: 0.8rem;
+    background-color: #2c67e9;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+}
+
+form button:hover {
+    background-color: #4a80f5;
+}
+
+.sub {
+    margin-top: 1rem;
+    text-align: center
+}
+
+.sub p {
+    font-size: 1.2rem;
+    color: #2c67e9;
+    cursor: pointer;
+    letter-spacing: 0.12rem;
+
+}
+
+.sub p:hover {
+       color: gray;
+}
+
+.lineer {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.line {
+    padding: 0.010rem;
+    background-color: gray;
+    width: 100%;
+}
+
+.lineer p {
+    color: black;
+    margin: 0rem 0.7rem;
+}
+
+.sub button {
+    padding: 0.86rem 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: white;
+    background-color: rgb(31, 212, 31);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sub button:hover{
+
+    background-color: rgb(131, 235, 131);
+
+}
